@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:language_learning_app/constants/colors.dart';
+import 'package:language_learning_app/views/family_members_view.dart';
+import 'package:language_learning_app/views/numbers_view.dart';
 import 'package:language_learning_app/widgets/category_container.dart';
 
 class HomeView extends StatelessWidget {
@@ -19,18 +21,30 @@ class HomeView extends StatelessWidget {
       body: Column(
         children: [
           CategoryContainer(
+            pageNavigator: () {
+              Navigator.push(context, MaterialPageRoute(builder: ((BuildContext context){
+                return NumbersView();
+              })));
+            },
             categoryName: 'Numbers',
             categoryColor: orangeColor,
           ),
           CategoryContainer(
+            pageNavigator: (){
+              Navigator.push(context, MaterialPageRoute(builder: ((BuildContext context){
+                return FamilyMembersView();
+              })));
+            },
             categoryName: 'Family Members',
             categoryColor: greenColor,
           ),
           CategoryContainer(
+            pageNavigator: (){},
             categoryName: 'Colors',
             categoryColor: purpleColor,
           ),
           CategoryContainer(
+            pageNavigator: (){},
             categoryName: 'Phrases',
             categoryColor: blueColor,
           ),

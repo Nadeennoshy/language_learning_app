@@ -28,6 +28,7 @@ class categoryItemInfo extends StatelessWidget {
                     padding: const EdgeInsets.only(left:8.0),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisSize: MainAxisSize.min,
                     children: [
                       Text(categoryItem.japaneseName,
