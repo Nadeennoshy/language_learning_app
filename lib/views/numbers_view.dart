@@ -7,45 +7,58 @@ class NumbersView extends StatelessWidget {
   const NumbersView({super.key});
   final List<CategoriesItemModel> numbers = const [
     CategoriesItemModel(
-        image: 'assets/images/numbers/number_one.png',
-        japaneseName: 'Ichi',
-        englishName: 'One'),
+      image: 'assets/images/numbers/number_one.png',
+      japaneseName: 'Ichi',
+      englishName: 'One',
+      sound: 'sounds/numbers/number_one_sound.mp3',
+    ),
     CategoriesItemModel(
-        image: 'assets/images/numbers/number_two.png',
-        japaneseName: 'Ni',
-        englishName: 'Two'),
+      image: 'assets/images/numbers/number_two.png',
+      japaneseName: 'Ni',
+      englishName: 'Two',
+      sound: 'sounds/numbers/number_two_sound.mp3',
+    ),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_three.png',
         japaneseName: 'San',
-        englishName: 'Three'),
+        englishName: 'Three',
+        sound: 'sounds/numbers/number_three_sound.mp3'),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_four.png',
         japaneseName: 'Shi',
-        englishName: 'Four'),
+        englishName: 'Four',
+        sound: 'sounds/numbers/number_four_sound.mp3'),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_five.png',
         japaneseName: 'Go',
-        englishName: 'Five'),
+        englishName: 'Five',
+        sound: 'sounds/numbers/number_five_sound.mp3'),
     CategoriesItemModel(
-        image: 'assets/images/numbers/number_six.png',
-        japaneseName: 'Roku',
-        englishName: 'Six'),
+      image: 'assets/images/numbers/number_six.png',
+      japaneseName: 'Roku',
+      englishName: 'Six',
+      sound: 'sounds/numbers/number_six_sound.mp3',
+    ),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_seven.png',
         japaneseName: 'Sebun',
-        englishName: 'Seven'),
+        englishName: 'Seven',
+        sound: 'sounds/numbers/number_seven_sound.mp3'),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_eight.png',
         japaneseName: 'Hachi',
-        englishName: 'Eight'),
+        englishName: 'Eight',
+        sound: 'sounds/numbers/number_eight_sound.mp3'),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_nine.png',
         japaneseName: 'Kyū',
-        englishName: 'Nine'),
+        englishName: 'Nine',
+        sound: 'sounds/numbers/number_nine_sound.mp3'),
     CategoriesItemModel(
         image: 'assets/images/numbers/number_ten.png',
         japaneseName: 'Jū',
-        englishName: 'Ten'),
+        englishName: 'Ten',
+        sound: 'sounds/numbers/number_ten_sound.mp3'),
   ];
 
   @override

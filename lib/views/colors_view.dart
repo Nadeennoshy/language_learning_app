@@ -9,35 +9,43 @@ class ColorsView extends StatelessWidget {
     CategoriesItemModel(
         image: 'assets/images/colors/color_black.png',
         japaneseName: 'Purakku',
-        englishName: 'Black'),
+        englishName: 'Black',
+        sound: 'sounds/colors/black.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_brown.png',
         japaneseName: 'Cha-iro',
-        englishName: 'Brown'),
+        englishName: 'Brown',
+        sound: 'sounds/colors/brown.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_dusty_yellow.png',
         japaneseName: 'Hokori ppoi kiiro',
-        englishName: 'Dusty Yellow'),
+        englishName: 'Dusty Yellow',
+        sound: 'sounds/colors/dusty yellow.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_gray.png',
         japaneseName: 'Gurei',
-        englishName: 'Gray'),
+        englishName: 'Gray',
+        sound: 'sounds/colors/gray.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_green.png',
         japaneseName: 'Midori',
-        englishName: 'Green'),
+        englishName: 'Green',
+        sound: 'sounds/colors/green.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_red.png',
         japaneseName: 'Aka',
-        englishName: 'Red'),
+        englishName: 'Red',
+        sound: 'sounds/colors/red.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/color_white.png',
         japaneseName: 'Shiro',
-        englishName: 'White'),
+        englishName: 'White',
+        sound: 'sounds/colors/white.wav'),
     CategoriesItemModel(
         image: 'assets/images/colors/yellow.png',
         japaneseName: 'Ki-iro',
-        englishName: 'Yellow'),
+        englishName: 'Yellow',
+        sound: 'sounds/colors/yellow.wav'),
   ];
 
   @override

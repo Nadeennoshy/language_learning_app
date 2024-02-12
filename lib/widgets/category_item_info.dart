@@ -52,10 +52,15 @@ class CategoryItemInfo extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.only(right: 12.0),
-                  child: Icon(
-                    Icons.play_arrow,
-                    color: textColor,
-                    size: 32,
+                  child: IconButton(
+                    onPressed: (){
+                      categoryItem.onClick();
+                    },
+                    icon: Icon(
+                      Icons.play_arrow,
+                      color: textColor,
+                      size: 32,
+                    ),
                   ),
                 ),
               ],
