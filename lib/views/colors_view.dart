@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:language_learning_app/constants/colors.dart';
 import 'package:language_learning_app/models/category_items_model.dart';
 import 'package:language_learning_app/widgets/category_item_info.dart';
+import 'package:language_learning_app/widgets/custom_app_bar.dart';
 
 class ColorsView extends StatelessWidget {
   const ColorsView({super.key});
@@ -51,19 +52,7 @@ class ColorsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: appBarColor,
-        leading: Icon(
-          Icons.arrow_back,
-          color: textColor,
-        ),
-        title: Text(
-          'Colors',
-          style: TextStyle(
-            color: textColor,
-          ),
-        ),
-      ),
+      appBar: customAppBar(context,'Colors'),
       body: ListView.builder(
           itemCount: colors.length,
           itemBuilder: (BuildContext context, index) {

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:language_learning_app/constants/colors.dart';
 import 'package:language_learning_app/models/category_items_model.dart';
 import 'package:language_learning_app/widgets/category_item_info.dart';
+import 'package:language_learning_app/widgets/custom_app_bar.dart';
 
 class FamilyMembersView extends StatelessWidget {
   const FamilyMembersView({super.key});
@@ -68,20 +69,7 @@ class FamilyMembersView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_back,
-          color: textColor,
-        ),
-        backgroundColor: appBarColor,
-        title: Text(
-          'Family Members',
-          style: TextStyle(
-            color: textColor,
-            fontSize: 20,
-          ),
-        ),
-      ),
+      appBar: customAppBar(context, 'Family Members'),
       body: ListView.builder(
           itemCount: familyMembers.length,
           itemBuilder: (BuildContext context, index) {

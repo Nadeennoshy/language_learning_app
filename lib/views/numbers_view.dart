@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:language_learning_app/constants/colors.dart';
 import 'package:language_learning_app/models/category_items_model.dart';
 import 'package:language_learning_app/widgets/category_item_info.dart';
+import 'package:language_learning_app/widgets/custom_app_bar.dart';
 
 class NumbersView extends StatelessWidget {
   const NumbersView({super.key});
@@ -64,19 +65,7 @@ class NumbersView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_back,
-          color: textColor,
-        ),
-        backgroundColor: appBarColor,
-        title: Text(
-          'Numbers',
-          style: TextStyle(
-            color: textColor,
-          ),
-        ),
-      ),
+      appBar: customAppBar(context, 'Numbers'),
       body: ListView.builder(
           itemCount: numbers.length,
           itemBuilder: (BuildContext context, index) {
