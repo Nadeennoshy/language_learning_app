@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Language learning app contains five screens:
+- First screen is the home page which contains four categories
+- The rest of the screens contain these categories.
+- Each category contains a list that includes an image, the name in Japanese, the name in English and an audio, except for the phrases screen that does not contain an image .
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this project, I learned the following:
+- How to make multiple screens and navigate between them
+- How to add audioplayers package to the project and deal with it
+- How to play the audio
