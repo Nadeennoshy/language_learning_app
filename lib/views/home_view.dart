@@ -3,6 +3,7 @@ import 'package:language_learning_app/constants/colors.dart';
 import 'package:language_learning_app/views/colors_view.dart';
 import 'package:language_learning_app/views/family_members_view.dart';
 import 'package:language_learning_app/views/numbers_view.dart';
+import 'package:language_learning_app/views/phrases_view.dart';
 import 'package:language_learning_app/widgets/category_container.dart';
 
 class HomeView extends StatelessWidget {
@@ -52,7 +53,12 @@ class HomeView extends StatelessWidget {
             categoryColor: purpleColor,
           ),
           CategoryContainer(
-            pageNavigator: () {},
+            pageNavigator: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: ((BuildContext context) {
+                return const PhrasesView();
+              })));
+            },
             categoryName: 'Phrases',
             categoryColor: blueColor,
           ),
