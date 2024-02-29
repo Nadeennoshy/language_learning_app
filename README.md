@@ -22,5 +22,10 @@ In this project, I learned the following:
 ![Screenshot_20240226-221100](https://github.com/Nadeennoshy/language_learning_app/assets/70576667/7f4373d4-bef5-4e17-98cd-1eddde68f0cb)
 
 
+## Video
+
+
+https://github.com/Nadeennoshy/language_learning_app/assets/70576667/423056a3-d424-472d-93b6-6ce4e83f7d05
+
 
 
